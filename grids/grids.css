@@ -6,8 +6,8 @@ used display:table-cell instead
 */
 
 /* clearfix */
-.line:after,.line:before,.lastUnit:after,.lastUnit:before {content:"";display:table;}
-.line:after,.lastUnit:after {clear:both;}
+.line:after,.line:before{content: "";display: table;}
+.line:after{clear:both;}
 .line,.lastUnit {*zoom:1;}
 
 .unit{float:left;min-height:1px;}
