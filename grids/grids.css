@@ -6,7 +6,7 @@ used display:table-cell instead
 */
 
 /* clearfix */
-.line:after,.line:before{content: "";display: table;}
+.line:after,.line:before{content:"";display:table;}
 .line:after{clear:both;}
 .line,.lastUnit {*zoom:1;}
 
@@ -22,4 +22,4 @@ used display:table-cell instead
 .size2of5{width:40%;}
 .size3of5{width:60%;}
 .size4of5{width:80%;}
-.lastUnit{float:none;width:auto;display:table-cell;}
+.lastUnit{float:none;display:table-cell;width:10000px;*width:auto;}
